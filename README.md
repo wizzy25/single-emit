@@ -1,4 +1,7 @@
 # Single-emit
+[![Travis Build Status][travis-icon]][travis]
+[![David devDependencies Status][david-dev-icon]][david-dev]
+
 Small super light-weight concise module with no dependencies to listen for events on an [EventEmitter](https://nodejs.org/api/events.html#events_class_eventemitter) instance and emit a single event when all events have been emitted. Think of it as a `Promise.all`, but for events.
 With support for Objects and Arrays
 
@@ -62,3 +65,8 @@ Other errors like passing in an invalid collection of event emitters or not pass
 
 ## Contributing
 Tests are written with Jest. Issues and pull requests are always welcome :-)
+
+[travis]: https://travis-ci.org/wizzy25/single-emit
+[travis-icon]: https://img.shields.io/travis/wizzy25/single-emit/master.svg?style=flat-square
+[david-dev]: https://david-dm.org/wizzy25/single-emit#info=devDependencies
+[david-dev-icon]: https://img.shields.io/david/dev/wizzy25/single-emit.svg?style=flat-square
