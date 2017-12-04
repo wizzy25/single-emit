@@ -2,11 +2,12 @@
   "name": "single-emit",
   "version": "0.0.2",
   "description": "Emit a single event for a collection of events",
-  "main": "index.js",
+  "main": "src/main.js",
   "scripts": {
     "lint": "./scripts/lint src test",
     "test": "jest",
-    "watch": "jest --watch"
+    "watch": "jest --watch",
+    "ci": "npm run lint -- --max-warnings 0 && npm test"
   },
   "repository": {
     "type": "git",
@@ -26,7 +27,7 @@
   },
   "homepage": "https://github.com/wizzy25/single-emit#readme",
   "devDependencies": {
-    "eslint": "^4.9.0",
+    "eslint": "^4.12.1",
     "eslint-formatter-pretty": "^1.3.0",
     "jest": "^21.2.1"
   }
