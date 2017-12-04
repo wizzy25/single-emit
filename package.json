@@ -1,6 +1,6 @@
 {
   "name": "single-emit",
-  "version": "0.0.2",
+  "version": "1.0.0",
   "description": "Emit a single event for a collection of events",
   "main": "src/main.js",
   "scripts": {
