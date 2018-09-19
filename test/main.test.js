@@ -1,5 +1,3 @@
-'use strict'
-
 const EventEmitter = require('events')
 const SingleEmit = require('../src/main')
 
